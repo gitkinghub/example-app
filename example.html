@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Traceability Report</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 5%;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        h2 {
+            color: #000;
+            margin-top: 30px;
+        }
+
+        .section-title {
+            font-weight: bold;
+            font-size: 1.2em;
+            margin-top: 20px;
+            margin-bottom: 10px;
+            text-decoration: underline;
+        }
+
+        .section-subtitle {
+            padding-top: 10px; 
+            padding-bottom: 10px; 
+            font-weight: bold;
+            font-size: 1em;
+        }
+
+        .plant-container-row{
+            display: flex;
+        }
+
+        .column{
+            flex: 50%;
+        }
+
+        .field-label {
+            font-weight: bold;
+        }
+
+        .field-input {
+            margin-bottom: 10px;
+            padding: 5px;
+        }
+
+        .table-container {
+            overflow-x: auto;
+            margin-top: 10px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+
+        table,
+        th,
+        td {
+            border: 1px solid #ddd;
+        }
+
+        th,
+        td {
+            padding: 8px;
+            text-align: left;
+        }
+
+        td{
+            height: 30px;
+        }
+
+        .image-row {
+            display: flex;
+            gap: 10px;
+            margin-top: 10px;
+        }
+
+        .image-row img {
+            width: 150px;
+            height: 100px;
+            object-fit: cover;
+        }
+    </style>
+</head>
+
+<body class="container">
+    <div class="heading">
+        <h1>Traceability Report</h1>
+    </div>
+    
+    <!-- farm information -->
+    <div class="section-title">1. Farm Information:</div>
+    <div class="field-input"><span class="field-label">Farm Name:</span> ..........................................
+    </div>
+    <div class="field-input"><span class="field-label">Farm Size:</span> ..........................................
+    </div>
+    <div class="field-input"><span class="field-label">Farm Location:</span> ..........................................
+    </div>
+    <div class="field-input"><span class="field-label">Farm Element:</span> ..........................................
+    </div>
+
+    <!-- plant information -->
+    <div class="section-title">Plant Information</div>
+    <div class="plant-container-row">
+        <div class="column">
+            <div class="field-input plant-info"><span class="field-label">Plant Name:</span>
+                ..........................................</div>
+            <div class="field-input plant-info"><span class="field-label">Planting Date:</span>
+                ..........................................</div>
+        </div>
+        
+        <div class="column">
+            <div class="field-input plant-info"><span class="field-label">Variety:</span> ..........................................
+            </div>
+            <div class="field-input plant-info"><span class="field-label">Quantity Planted:</span>..........................................</div>
+        </div>
+        
+    </div>
+    
+
+    <div class="section-title">2. Planting / Cultivation Information</div>
+
+    <div class="section-subtitle">i. Fertilizers Used:</div>
+    <div class="table-container">
+        <table>
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Fertilizer Name</th>
+                    <th>Quantity</th>
+                    <th>Plant Stage</th>
+                    <th>Date</th>
+                    <th>Done By</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Table rows data -->
+                 <td></td>
+                 <td></td>
+                 <td></td>
+                 <td></td>
+                 <td></td>
+                 <td></td>
+            </tbody>
+        </table>
+    </div>
+
+    <div class="section-subtitle">ii. Agrochemicals Used:</div>
+    <div class="table-container">
+        <table>
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Agrochemical Name</th>
+                    <th>Quantity</th>
+                    <th>Plant Stage</th>
+                    <th>Date</th>
+                    <th>Done By</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Table rows data -->
+                 <td></td>
+                 <td></td>
+                 <td></td>
+                 <td></td>
+                 <td></td>
+                 <td></td>
+            </tbody>
+        </table>
+    </div>
+
+    <div class="section-subtitle">iii. Irrigation Schedule:</div>
+    <div class="table-container">
+        <table>
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Method Used</th>
+                    <th>Water Quantity</th>
+                    <th>Plant Stage</th>
+                    <th>Date</th>
+                    <th>Done By</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Table rows data -->
+                 <td></td>
+                 <td></td>
+                 <td></td>
+                 <td></td>
+                 <td></td>
+                 <td></td>
+            </tbody>
+        </table>
+    </div>
+
+    <div class="section-title">3. Harvest Information</div>
+
+    <div class="section-subtitle">i. Harvest Preparation</div>
+    <div class="table-container">
+        <table>
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Date</th>
+                    <th>Preparedness (%)</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Table rows data -->
+                 <td></td>
+                 <td></td>
+                 <td></td>
+            </tbody>
+        </table>
+    </div>
+
+    <div class="section-subtitle">ii. Harvest Data</div>
+    <div class="table-container">
+        <table>
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Date</th>
+                    <th>Yield Quantity</th>
+                    <th>Quantity 2</th>
+                    <th>Lost in transit</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Table rows data -->
+                 <td></td>
+                 <td></td>
+                 <td></td>
+                 <td></td>
+                 <td></td>
+            </tbody>
+        </table>
+    </div>
+
+    <div class="section-title">4. Quality Assurance</div>
+
+    <div class="section-subtitle">i. Crop Scouting:</div>
+    <div class="field-input"><span class="field-label">Scouting Date:</span> ..........................................
+    </div>
+    <div class="field-input"><span class="field-label">Plant Stage:</span> ..........................................
+    </div>
+    <div class="field-input"><span class="field-label">Observations:</span></div>
+    <div>...............................................................................................................................................................</div>
+    <div>................................................................................</div>
+
+    <div class="section-subtitle">Images:</div>
+    <div class="image-row">
+        <img src="image1.jpg" alt="Image 1">
+        <img src="image2.jpg" alt="Image 2">
+        <img src="image3.jpg" alt="Image 3">
+    </div>
+
+    <div class="section-subtitle">ii. Crop Inspections</div>
+    <div class="table-container">
+        <table>
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Date</th>
+                    <th>Name</th>
+                    <th>Observations</th>
+                    <th>Files and Documents</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Table rows data -->
+                 <td></td>
+                 <td></td>
+                 <td></td>
+                 <td></td>
+                 <td></td>
+            </tbody>
+        </table>
+    </div>
+
+    <div class="section-title">5. Environmental Impact</div>
+    <div class="field-input"><span class="field-label">Soil Health:</span> ..........................................
+    </div>
+    <div class="field-input"><span class="field-label">Total Water Usage:</span>
+        ..........................................</div>
+</body>
+
+</html>
